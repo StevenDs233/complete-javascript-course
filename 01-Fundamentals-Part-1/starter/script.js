@@ -49,7 +49,7 @@
 // age = 31;
 
 //(Uncaught TypeError: Assignment to constant variable.)
-const birthYear = 1991; //create the variable that we not reassign, the variable could not be muteted type error, 
+// const birthYear = 1991; //create the variable that we not reassign, the variable could not be muteted type error,
 // birthYear = 1991;
 
 //Missing initializer in const declaration
@@ -92,4 +92,107 @@ const birthYear = 1991; //create the variable that we not reassign, the variable
 // console.log(now - 1991 > now - 2018);
 
 
-//
+//Operator Precedece
+// const now = 2037;
+// const ageJones = now - 1991;
+// const ageSarach = now - 2018;
+
+// console.log(now - 1991 > now - 2018);
+
+// console.log(25 - 10 - 5);
+
+// let x, y;
+// x = y = 25 - 10 - 5; //x = y = 10, First, x = 10
+// console.log(x, y);
+
+// const averageAge = (ageJones + ageSarach) / 2;
+// console.log(ageJones, ageSarach, averageAge);
+
+//Coding Challenge
+
+/*
+Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
+
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both versions)
+3. Create a boolean variable 'markHigherBMI' containing information about whether Mark has a higher BMI than John.
+
+TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
+TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
+
+GOOD LUCK 😀
+
+// const markWeight = 78;
+// const markHeight = 1.69;
+// const JohnWeight = 92;
+// const JohnHeight = 1.95;
+
+// const markWeight = 95;
+// const markHeight = 1.88;
+// const JohnWeight = 85;
+// const JohnHeight = 1.76;
+
+
+// const markBMI = markWeight / markHeight ** 2;
+// const JohnBMI = JohnWeight / (JohnHeight * JohnHeight);
+// const markHigherBM = markBMI > JohnBMI;
+// console.log(markBMI, JohnBMI, markHigherBM);
+*/
+
+/*String and Template Literals
+// const firstName = "Jones";
+// const job = "teacher";
+// const birthYear = 1991;
+// const year = 2037;
+
+// const jonas = "I'm " + firstName + " , a " + (year - birthYear) + " years old " + job + 'i';
+// console.log(jonas);
+
+
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
+// console.log(jonasNew);
+
+// console.log(`Just a regular string...`);
+
+// console.log('String with \n\
+// multiple \n\
+// lines');
+
+// console.log(`String
+// mutiple
+// lines`);
+*/
+
+/*if else statement
+// const age = 15;
+
+// if (age >= 18) {
+//     console.log("Sarah can start driving license🚗")
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah is too young, Wait another ${yearsLeft} years:)`)
+// }
+
+// const birthYear = 1998;
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+// console.log(century);
+*/
+
+
+// Coding Challenge #2
+
+/*
+Use the BMI example from Challenge #1, and the code you already wrote, and improve it:
+
+1. Print a nice output to the console, saying who has the higher BMI. The message can be either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!"
+
+HINT: Use an if/else statement 😉
+
+GOOD LUCK 😀
+*/
