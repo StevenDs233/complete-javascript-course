@@ -195,4 +195,28 @@ Use the BMI example from Challenge #1, and the code you already wrote, and impro
 HINT: Use an if/else statement 😉
 
 GOOD LUCK 😀
+
+
+// const markWeight = 78;
+// const markHeight = 1.69;
+// const JohnWeight = 92;
+// const JohnHeight = 1.95;
+
+// const markWeight = 95;
+// const markHeight = 1.88;
+// const JohnWeight = 85;
+// const JohnHeight = 1.76;
+
+// const markBMI = markWeight / markHeight ** 2;
+// const JohnBMI = JohnWeight / (JohnHeight * JohnHeight);
+// const markHigherBM = markBMI > JohnBMI;
+// console.log(markBMI, JohnBMI, markHigherBM);
+
+// if (markBMI > JohnBMI) {
+//     console.log(`Mark's BMI (${markBMI}) is higher than John's (${JohnBMI})!`);
+// } else {
+//     console.log(`John's BMI (${JohnBMI}) is higher than Mark's (${markBMI})!`);
+// }
 */
+
+//Type Conversion and Coercion
