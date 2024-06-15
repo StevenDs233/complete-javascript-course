@@ -9,7 +9,7 @@
 // console.log(firstname);
 // console.log(firstname);
 
-// //
+// // //
 // let jonas_matilda = "JM";
 // let sfunction = 27;
 
@@ -45,31 +45,34 @@
 
 // console.log(typeof null);
 
-// let age = 30;//var
-// age = 31;
+/*var, let, const
+let age = 30;//var
+age = 31;
 
 //(Uncaught TypeError: Assignment to constant variable.)
-// const birthYear = 1991; //create the variable that we not reassign, the variable could not be muteted type error,
-// birthYear = 1991;
+const birthYear = 1991; //create the variable that we not reassign, the variable could not be muteted type error,
+birthYear = 1991;
 
-//Missing initializer in const declaration
-// const job; //when we use const, we need basically an initial value
-//clean code: use const by default and let only sure that the variable need to changes
+// Missing initializer in const declaration
+const job; //when we use const, we need basically an initial value
+// clean code: use const by default and let only sure that the variable need to changes
 
-// var job = "programming";
-// job = 'teacher';
+var job = "programming";
+job = 'teacher';
 
-// lastName = "Schemedmean";
-// console.log(lastName);
+lastName = "Schemedmean";
+console.log(lastName);
+*/
 
-//Basic Operator(arithmetic operations)
+
+//Basic Operator(Math operations)
 // const now = 2037;
 // const ageJones = now - 1991;
 // const ageSarach = now - 2020;
 // console.log(ageJones, ageSarach);
 
 // console.log(ageJones * 2, ageJones / 10, 2 ** 3);
-// // 2**3 means 2 the power of 3 = 2 * 2 * 2
+// // // 2**3 means 2 the power of 3 = 2 * 2 * 2
 
 // const firstName = 'Jones';
 // const lastName = 'Schmedtmann';
@@ -92,7 +95,7 @@
 // console.log(now - 1991 > now - 2018);
 
 
-//Operator Precedece
+// Operator Precedece
 // const now = 2037;
 // const ageJones = now - 1991;
 // const ageSarach = now - 2018;
@@ -121,7 +124,7 @@ TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1
 TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 
 GOOD LUCK 😀
-
+*/
 // const markWeight = 78;
 // const markHeight = 1.69;
 // const JohnWeight = 92;
@@ -137,9 +140,9 @@ GOOD LUCK 😀
 // const JohnBMI = JohnWeight / (JohnHeight * JohnHeight);
 // const markHigherBM = markBMI > JohnBMI;
 // console.log(markBMI, JohnBMI, markHigherBM);
-*/
 
-/*String and Template Literals
+
+//String and Template Literals
 // const firstName = "Jones";
 // const job = "teacher";
 // const birthYear = 1991;
@@ -161,27 +164,26 @@ GOOD LUCK 😀
 // console.log(`String
 // mutiple
 // lines`);
-*/
 
-/*if else statement
-// const age = 15;
+/*if else statement*/
+const age = 15;
 
-// if (age >= 18) {
-//     console.log("Sarah can start driving license🚗")
-// } else {
-//     const yearsLeft = 18 - age;
-//     console.log(`Sarah is too young, Wait another ${yearsLeft} years:)`)
-// }
+if (age >= 18) {
+    console.log("Sarah can start driving license🚗")
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young, Wait another ${yearsLeft} years:)`)
+}
 
-// const birthYear = 1998;
-// let century;
-// if (birthYear <= 2000) {
-//     century = 20;
-// } else {
-//     century = 21;
-// }
-// console.log(century);
-*/
+const birthYear = 1998;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
+
 
 
 // Coding Challenge #2
